@@ -2,6 +2,7 @@
 import React from 'react';
 import { exercisesMockup } from "./constants";
 import { ExerciseCard } from "./exercise";
+import './card.css';
 
 export const Exercises = () => {
     return (
@@ -10,3 +11,4 @@ export const Exercises = () => {
         </div>
     );
 };
+
