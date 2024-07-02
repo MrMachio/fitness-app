@@ -1,2 +1,3 @@
-export {Exercise} from './exercise.tsx';
-export {Exerceices} from './exerceices.tsx';
+// src/index.ts
+export { ExerciseCard } from './exercise';
+export { Exercises } from './exercises';

@@ -1,27 +1,29 @@
-import {Exercise} from "./types.ts";
-import armPic from "./imeges/arm.webp"
-import legPic from "./imeges/leg.jpg"
-import ranPic from "./imeges/ran.jpg"
-export const exerceicesMockup: Exercise[] = [
+// src/constants.ts
+import { Exercise } from "./types";
+import armPic from "./images/arm.jpeg";
+import legPic from "./images/leg.jpg";
+import ranPic from "./images/run.jpg";
+
+export const exercisesMockup: Exercise[] = [
     {
         id: '1',
-        name: 'arm training',
+        name: 'Physical Fitness',
         image: armPic,
         type: 'weight',
-        description: 'pumping up muscles',
+        description: 'Building strength and endurance',
     },
     {
         id: '2',
-        name: 'leg training',
+        name: 'Weight Gain',
         image: legPic,
         type: 'weight',
-        description: 'pumping up muscles',
+        description: 'Increasing muscle mass',
     },
     {
         id: '3',
-        name: 'jogging',
+        name: 'Strength Training',
         image: ranPic,
         type: 'time',
-        description: 'pumping up muscles',
+        description: 'Enhancing muscle power',
     },
-]
+];

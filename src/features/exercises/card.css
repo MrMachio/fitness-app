@@ -1,4 +1,4 @@
-/* src/Exercise.css */
+/* src/card.css */
 .ExerciseCard {
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -8,6 +8,7 @@
     background-color: #1e1e1e;
     color: white;
     padding: 10px;
+    text-align: center;
 }
 
 .ExerciseCard-image {
@@ -28,4 +29,3 @@
 .ExerciseCard-description {
     margin: 5px 0 0;
 }
-
