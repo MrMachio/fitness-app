@@ -1,6 +1,6 @@
 import React from 'react';
 import card from './card';
-import { TrainingProgram } from './types';
+import { TrainingProgram } from './features/exercises/types.ts';
 const trainingPrograms: TrainingProgram[] = [
     {
         id: '1',

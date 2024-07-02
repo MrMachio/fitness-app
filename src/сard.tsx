@@ -1,5 +1,5 @@
 import React from 'react';
-import { TrainingProgram } from './types';
+import { TrainingProgram } from './features/exercises/types.ts';
 
 interface CardProps {
     program: TrainingProgram;

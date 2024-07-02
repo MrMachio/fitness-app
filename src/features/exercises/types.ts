@@ -1,5 +1,3 @@
-// src/types.ts
-
 export interface User {
     name: string;
     email: string;
@@ -24,6 +22,8 @@ export interface Exercise {
     image: string;
     description: string;
     id: string;
+    name: string;
+    type: "time" | "weight";
 }
 
 export interface Comment {
