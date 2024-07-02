@@ -1,0 +1,27 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    width: 300px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.card h2 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+
+.card p {
+    margin: 5px 0;
+}
